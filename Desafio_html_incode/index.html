@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de HTML</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Desafio do Incode</h1>
+        <nav>
+            <ul>
+                <li><a href="#SobreMim">Sobre Mim</a></li>
+                <li><a href="#Habilidades">Minhas Habilidades</a></li>
+                <li><a href="#formulário">Formulário para cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="SobreMim">
+            <h2>Sobre Mim</h2>
+            <p>Meu nome é Pedro Carneiro, sou engenheiro da computação formado na universidade CEUMA, sou uma pessoa
+                apaixonado por tecnologia, e estou sempre buscando aprimorar meus conhecimentos nessa área! </p>
+            <ul>
+                <label for="institruições"><strong>Instituições de formação por onde passei</strong></label>
+                <li>CEUMA</li>
+                <li>Alura</li>
+                <li>Incode Tech School</li>
+            </ul>
+        </section>
+
+        <section id="Habilidades">
+            <h2>Minhas habilidades</h2>
+            <p>Durante minha formação na Incode Tech School pude aprimorar meus conhecimentos com certas tecnologias com
+                o intuito melhorar minhas habilidades com a programação</p>
+            <ol type="I">
+                <label for="tecnologias"><strong>Tecnologias que aprendi</strong></label>
+                <li>Python</li>
+                <li>GitHub</li>
+                <li>Figma</li>
+                <li>HTML</li>
+            </ol>
+        </section>
+
+        <aside>
+            <h3>Informações para contato</h3>
+            <p>Aqui estão algumas das minhas redes sociais:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/pedro_carneiro31/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/pedro-carneiro31/" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/carneirovsk" target="_blank">GitHub</a></li>
+            </ul>
+        </aside>
+
+        <section id="formulário">
+            <h2>Formulário para cadastro</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" placeholder="exemple@exemple.com"><br><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br><br>
+
+                <fieldset>
+                    <legend>Escolha seu gênero:</legend>
+                    <label><input type="radio" name="genero" value="masculino"> Masculino</label><br>
+                    <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+                </fieldset><br>
+
+                <label for="interesses">Interesses:</label><br>
+                <select id="interesses" name="interesses" multiple>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                </select><br><br>
+
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"
+                    placeholder="Fale um pouco sobre você"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pedro Carneiro. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
